@@ -1,0 +1,5 @@
+comic_system/Include
+comic_system/Lib
+comic_system/Scripts
+comic_system/pyvenv.cfg
+comic_system/app/__pycache__
