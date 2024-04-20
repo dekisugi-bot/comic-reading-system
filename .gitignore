@@ -1,0 +1,13 @@
+comic_system/Include
+comic_system/Lib
+comic_system/Scripts
+comic_system/pyvenv.cfg
+comic_system/app/__pycache__
+
+scrapy_env/Include
+scrapy_env/Lib
+scrapy_env/pyvenv.cfg
+scrapy_env/Scripts
+
+scrapy_env/comics/comics/__pycache__/
+scrapy_env/comics/comics/spiders/__pycache__/
