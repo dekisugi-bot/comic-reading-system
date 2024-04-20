@@ -1,0 +1,32 @@
+.cart {
+  width: 80vw;
+  margin: auto;
+
+  .title {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+
+  .cart-infomation {
+    display: flex;
+
+    .list {
+      flex-grow: 1;
+    }
+
+    .total {
+      width: 200px;
+      height: 120px;
+      border: 1px solid grey;
+      margin-left: 20px;
+
+      .count {
+        margin: 10px 20px;
+      }
+  
+      .price {
+        margin: 10px 20px;
+      }
+    }
+  }
+}

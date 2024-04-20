@@ -1,0 +1,35 @@
+.search-popup {
+  position: absolute;
+  height: 200px ;
+  width: 100%;
+  top: 50px;
+  background-color: white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  z-index: 10;
+  opacity: 1;
+  transition: all .5s;
+  overflow: scroll;
+  transition-delay: .3s;
+
+  .content {
+    padding: 10px;
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .item {
+      font-size: 14px;
+      padding: 5px 0;
+    }
+  }
+
+  &.hide {
+    height: 0;
+    opacity: 0;
+    transition-delay: 0s;
+  }
+}
