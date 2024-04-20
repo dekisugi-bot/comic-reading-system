@@ -6,15 +6,13 @@ class UserBase(BaseModel):
 
 class UserCreate(UserBase):
     password: str
-    email: EmailStr = None
+    email: str = None
     phone: str = Field(None, max_length=20)
     address: str = Field(None, max_length=255)
 
 class UserInDB(UserBase):
-    id: int
-    email: str = None
-    phone: str = None
-    address: str = None
+    username: str 
+    password: str
 
     class Config:
         orm_mode = True
