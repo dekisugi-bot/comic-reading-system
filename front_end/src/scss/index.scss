@@ -1,0 +1,18 @@
+@import "core/core.scss";
+@import "core/variables.scss";
+@import "core/animations.scss";
+
+@import "components/header.scss";
+@import "components/footer.scss";
+@import "components/buttons.scss";
+@import "components/input.scss";
+@import "components/product-item.scss";
+@import "components/review-item.scss";
+@import "components/cart-item.scss";
+@import "components/cart-popup-item.scss";
+@import "components/search-popup.scss";
+
+@import "pages/login.scss";
+@import "pages/home.scss";
+@import "pages/comic-details.scss";
+@import "pages/cart.scss";

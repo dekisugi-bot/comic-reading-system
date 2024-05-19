@@ -1,0 +1,44 @@
+.text-btn {
+  display: inline-block;
+  background-color: transparent;
+  color: $primary-color;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  background-color: $primary-color;
+  color: #fff;
+  border-radius: 0px;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  padding: 5 20px;
+  text-decoration: none;
+  border-radius: 20px;
+
+  &:active {
+    scale: 0.9;
+  }
+}
+
+.btn-secondary {
+  display: inline-block;
+  background-color: #fff;
+  color: $primary-color;
+  border-radius: 0px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid $primary-color;
+  padding: 5 20px;
+  text-decoration: none;
+  border-radius: 20px;
+
+  &:active {
+    scale: 0.9;
+  }
+}

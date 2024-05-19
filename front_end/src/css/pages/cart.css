@@ -1,0 +1,28 @@
+.cart {
+  width: 80vw;
+  margin: auto;
+}
+.cart .title {
+  font-size: 28px;
+  margin: 20px 0;
+}
+.cart .cart-infomation {
+  display: flex;
+}
+.cart .cart-infomation .list {
+  flex-grow: 1;
+}
+.cart .cart-infomation .total {
+  width: 200px;
+  height: 120px;
+  border: 1px solid grey;
+  margin-left: 20px;
+}
+.cart .cart-infomation .total .count {
+  margin: 10px 20px;
+}
+.cart .cart-infomation .total .price {
+  margin: 10px 20px;
+}
+
+/*# sourceMappingURL=cart.css.map */

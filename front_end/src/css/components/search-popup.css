@@ -1,0 +1,33 @@
+.search-popup {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  top: 50px;
+  background-color: white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  z-index: 10;
+  opacity: 1;
+  transition: all 0.5s;
+  overflow: scroll;
+  transition-delay: 0.3s;
+}
+.search-popup .content {
+  padding: 10px;
+}
+.search-popup .content .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.search-popup .content .item {
+  font-size: 14px;
+  padding: 5px 0;
+}
+.search-popup.hide {
+  height: 0;
+  opacity: 0;
+  transition-delay: 0s;
+}
+
+/*# sourceMappingURL=search-popup.css.map */

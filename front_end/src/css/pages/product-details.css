@@ -1,0 +1,55 @@
+.details-content {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.details-content .back {
+  width: 80vw;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+.details-content .details-image {
+  flex: 1;
+  min-width: 400px;
+}
+.details-content .details-image img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.details-content .information {
+  flex: 1;
+  min-width: 400px;
+  padding: 40px 40px;
+  box-sizing: content-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 320px;
+  margin-left: 40px;
+}
+.details-content .information .name {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.details-content .information .description, .details-content .information .rating, .details-content .information .stock, .details-content .information .quantity, .details-content .information .price {
+  width: 100%;
+}
+.details-content .review {
+  width: 40vw;
+}
+.details-content .review .review-title {
+  font-size: 32px;
+  margin: 20px 0px;
+}
+.details-content .review .write-review {
+  font-size: 24px;
+  margin: 20px 0;
+}
+.details-content .review .rating, .details-content .review .rate, .details-content .review .comment, .details-content .review .input, .details-content .review .btn {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=product-details.css.map */

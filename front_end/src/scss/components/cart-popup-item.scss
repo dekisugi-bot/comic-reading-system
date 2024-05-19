@@ -1,0 +1,21 @@
+.cart-popup-item {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  .image {
+    width: 40px;
+    height: 40px;
+
+    img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+  }
+
+  .info {
+    margin-left: 10px;
+    width: 160px;
+  }
+}

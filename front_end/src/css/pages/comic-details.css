@@ -1,0 +1,51 @@
+.details-content {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.details-content .back {
+  width: 80vw;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+.details-content .information {
+  width: 100%;
+  box-sizing: content-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100px;
+}
+.details-content .information .name {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.details-content .chapter {
+  width: 100%;
+  padding: 10px;
+}
+.details-content .review {
+  width: 40vw;
+}
+.details-content .review .review-title {
+  font-size: 32px;
+  margin: 20px 0px;
+}
+.details-content .review .write-review {
+  font-size: 24px;
+  margin: 20px 0;
+}
+.details-content .review .rating, .details-content .review .rate, .details-content .review .comment, .details-content .review .input, .details-content .review .btn {
+  margin-bottom: 10px;
+}
+.details-content .comic-image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=comic-details.css.map */

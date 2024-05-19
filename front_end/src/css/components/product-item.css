@@ -1,0 +1,54 @@
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.product-item {
+  display: flex;
+  justify-content: center;
+}
+.product-item .product-content {
+  width: 240px;
+  height: 340px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-item .product-content .product-image {
+  width: 240px;
+  height: 240px;
+  margin-top: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.product-item .product-content .product-image img {
+  width: 100%;
+  transition: all 0.5s;
+  object-fit: cover;
+}
+.product-item .product-content .product-image:hover img {
+  scale: 1.2;
+}
+.product-item .product-content .product-info {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.product-item .product-content .product-info .product-name, .product-item .product-content .product-info .product-price {
+  font-weight: bold;
+}
+.product-item .product-content .product-rating {
+  width: 220px;
+  padding: 0;
+}
+.product-item .product-content .product-rating .ant-rate-star.ant-rate-star-full,
+.product-item .product-content .product-rating .ant-rate-star.ant-rate-star-zero,
+.product-item .product-content .product-rating .ant-rate-star.ant-rate-star-half.ant-rate-star-active {
+  scale: 0.8;
+  margin: 0;
+}
+.product-item .product-content .btn {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=product-item.css.map */
