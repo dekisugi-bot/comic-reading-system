@@ -1,6 +1,6 @@
 # app/models/models.py
 from sqlalchemy import Column, Integer, String, Text, ARRAY
-from app.database import Base
+from database.database import Base
 
 class Chapter(Base):
     __tablename__ = 'chapters'

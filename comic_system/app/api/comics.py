@@ -3,12 +3,12 @@ from fastapi import APIRouter, Depends, File, UploadFile, HTTPException
 from fastapi.responses import FileResponse
 from sqlalchemy.orm import Session
 from sqlalchemy import asc,desc
-from app.models.user import User
-from app.database import SessionLocal
-from app.models.comic import Comic
-from app.schemas.comic import ComicOut, ComicSchema
-from app.models.chapter import Chapter
-from app.schemas.chapter import ChapterSchema, ChapterImage
+from models.user import User
+from database.database import SessionLocal
+from models.comic import Comic
+from schemas.comic import ComicOut, ComicSchema
+from models.chapter import Chapter
+from schemas.chapter import ChapterSchema, ChapterImage
 import os
 import shutil
 

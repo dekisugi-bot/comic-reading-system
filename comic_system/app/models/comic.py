@@ -1,6 +1,6 @@
 # app/models/models.py
 from sqlalchemy import Column, Integer, String, Text, ARRAY
-from app.database import Base
+from database.database import Base
 
 class Comic(Base):
     __tablename__ = 'comics'

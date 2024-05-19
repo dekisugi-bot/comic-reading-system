@@ -1,9 +1,17 @@
 # app/api/authentication.py
+import sys
+import os
+
+# Add the project directory to the system path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) 
+print(sys.path) 
+
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from app.database import SessionLocal
-from app.models.user import User
-from app.schemas.user import UserCreate, UserInDB
+from database.database import SessionLocal
+from models.user import User
+from schemas.user import UserCreate, UserInDB
+
 
 router = APIRouter()
 
